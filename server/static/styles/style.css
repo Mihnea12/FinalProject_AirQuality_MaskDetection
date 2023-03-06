@@ -1,0 +1,52 @@
+body {
+    background-color: #cafafe;
+  }
+
+
+.hide{
+  visibility: hidden;
+  background-color: rgb(93, 167, 167);
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+
+}
+.row.co2:hover .hide{
+  position: relative;
+  visibility: visible;
+  right: 80px;
+  bottom: -10px;
+}
+
+.hide1{
+  visibility: hidden;
+  background-color: rgb(93, 167, 167);
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+
+}
+
+.row.aqi:hover .hide1{
+  position: relative;
+  visibility: visible;
+  right: -200px;
+  bottom: 120px;
+  width: 400px;
+  height: 100px;
+}
+.rosu {
+  background-color: #fc4445
+}
+
+.verde {
+  background-color: #3feee6;
+}
+
+.border{
+  border-color: #55bcc9!important
+}
+
+.ct-golden-section:before {
+  padding-bottom: 40%!important
+}
